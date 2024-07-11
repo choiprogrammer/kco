@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login to Kangkongan Na!">
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- REMIXICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel ="stylesheet" href="assets/css/style-login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login | Kangkongan Na!</title>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="index.html">
+            <img src="assets/imgs/kco-logo.png" class="nav__logo" alt="Kangkong Chips Logo">
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li>
+                    <a href="home.html" class="nav__link">Home</a>
+                </li>
+                
+                <li>
+                    <a href="home.html#favorites" class="nav__link">Favorite Flavors</a>
+                </li>
+
+                <li>
+                    <a href="home.html#facts" class="nav__link">Facts</a>
+                </li>
+
+                <li>
+                    <a href="home.html#contact" class="nav__link">Contact</a>
+                </li>
+
+                <li>
+                    <a href="products.html" class="nav__link">Products</a>
+                </li>
+
+                <li>
+                    <a href="about-us.html" class="nav__link">About Us</a>
+                </li>
+            </ul>
+
+            <!-- Close Button -->
+            <div class="nav__close" id="nav-close">
+                <i class="ri-close-large-line"></i>
+            </div>
+
+            <div class="nav__social">
+                <a href="https://www.facebook.com/kangkongchipsoriginal" target="_blank" class="nav__social-link" aria-label="Facebook">
+                    <i class="ri-facebook-circle-line"></i>
+                </a>
+                <a href="https://www.instagram.com/kangkongchipsoriginal/" target="_blank" class="nav__social-link" aria-label="Instagram">
+                    <i class="ri-instagram-line"></i> 
+                </a>
+                <a href="https://www.tiktok.com/@kangkongchipsoriginal" target="_blank" class="nav__social-link" aria-label="Tiktok">
+                    <i class="ri-tiktok-fill"></i>
+                </a>
+            </div> 
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-fill"></i>
+        </div>
+    </nav>
+</header>
+<!-- END HEADER -->
+
+<!-- MAIN -->
+<main class="main">
+    <div class="wrapper">
+        <form id="loginForm">
+            <h1>Login</h1>
+
+            <div class ="input-box">
+                <input type="text" id="username" placeholder="Username" required>
+                <i class='bx bxs-user-circle' ></i>
+            </div>
+
+            <div class ="input-box">
+                <input type="password" id="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+
+            <div class ="remember-forgot">
+                <label><input type="checkbox"> Remember me </label>
+                    <a href="#">Forgot password?</a>
+            </div>
+        <button type="submit" class="btn">Login</button>
+
+        <div class ="register-link">
+            <p>Don't have an account?</p>
+        </div>
+        </form>
+    </div>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">KANGKONG CHIPS</a>
+        <span class="footer__copy">
+            &#169; For Educational Purposes Only
+        </span>
+    </div>
+</footer>
+<!-- END FOOTER -->
+
+<!-- SCROLL UP -->
+<a href="#home" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-s-line"></i>
+</a>
+<!-- END SCROLL UP -->
+
+<!-- SCROLL REVEAL -->
+<script src="assets/js/scrollreveal.min.js"></script>
+<!-- END SCROLL REVEAL -->
+
+<!-- SWIPER JS -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<!-- END SWIPER JS -->
+
+<!-- MAIN JS -->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/login-page.js"></script>
+
+<!-- END MAIN JS -->
+
+</body>
+</main>
+</html>
